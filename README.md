@@ -1,1 +1,176 @@
 # micahbag
+<!DOCTYPE html>
+<html>
+<title>MJAC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('profile.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("prof1.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("prof2.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+
+
+
+<div class="bgimg-1 w3-opacity w3-display-container">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">MICAH <span class="w3-hide-small">JOSHUA</span> CANALEJA</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">If It's Easy, It's not ECE</h3>
+  <p class="w3-center"><em>"It is okay to be glowstick. Sometimes we have to break before we shine." -Pinterest</em></p>
+  
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-section">
+      
+      <img src="prof3.jpg" class="w3-circle" style="height:400px;width:420px"alt="Photo of Me">
+    </div>
+
+   
+	    <div class="w3-col m6 w3-hide-small w3-section">
+		 <style>
+		 p {text-indent: 50px;}
+		 p.italic { font-style: italic;}
+		 </style>
+		 <p><em>Mag engineering ko para nay dungag sa akong pangan."</em> That was my though when I was thinking what course to take up after I graduated in high school. The enrolment has begun. There are a lot of students and enrolees as inside the university. People who are running, walking around, and most especially, looking at you because you're fresh from the province. I was with my mom when I enrolled. She is very supportive in whatever life decisions I made and consequently, she was quite happy when she knew I was going to take up Bachelor of Science in Electronics and Communications Engineering later became Bachelor of Science in Electronics Engineering. It was the chairman of the Department of Electrical and Electronics Engineering who interviewed and assessed my high school grades if I am qualified and fit to be their student. Fortunately, I survived and passed that horrifying interview. 
+		 </p>
+		 </div>
+    </div>
+	<p>ADJUSTMENT - to describe my entire freshman year. I had a hard time adjusting with my academics and the urban environment. In fact, I was afraid of failing my Trigonometry class because back in high school, we did not discussed the trigonometric identities. I was frustrated and intimidated because I knew that my classmates had this way back in high school. It was not very easy. I exerted additional efforts to have the topic self-reviewed. I had made friends and they became my study and stroll buddies.
+	</p>
+	<p>HAGGARD - It was on my junior and senior year that started creating A LOT of projects. This marks the start of my stressful life; it really demands time! <em>"Kapoya na oy!" </em> I always tell myself because most of the projects especially under Engr. Nunez requires an IEEE paper report and afterwhich defend it. I even remember running back and forth the corridors of the third floor from room 386 to the faculty room to meet the deadline. The prominent line, <em>"bisag tres lang, okay na"</em> was very prevalent that instant. 
+	</p>
+	<p>THESIS REALLY IS IT - All the stress I experienced from the previous years is not even close to the stress I AM EXPERIENCING right now. All the emotional and physical stress were dominant as of this writing. Many requirements especially in ECE524 that I felt very absurd since we are the pioneering batch that is REQUIRED to have a total of 240 on-the-job training hours. The paperworks of it is what I dislike since it is very hassle on my part to process the papers and at the same time having your OJT. Aside from that we have proposal of our thesis which with God's help, was already approved however it undergone so many revisions. 
+	</p>
+  <h3 class="w3-center">Author's Commentary Section</h3>
+  <style> p {text-indent: 50px;}
+	</style>
+	<p>For nine semesters, I had so many ups and downs. I failed three subjects: Direct current circuits, Electromagnetics 1 and Advanced Mathematics. It was very tough especially when you tell your parents why you failed. Indeed I am the one who is making my grades but there is also the teacher's factor. One can't perform well without the other one. However, these did not hinder me to move on, to move forward. Infact, failing those subjects were my turning point to study hard more. 
+	</p>
+	<p>To all that wants to take up BS ECE, and those who is currently enrolled but is struggling, trust God. Whatever you do, do it your 101 percent. <em>"If it's easy it's not ECE."</em> Yes, this is a challenge, a huge book to carry. You will encounter different failures but remember that these are just test. If you failed, MOVE FORWARD, MOVE ON. Look into the bigger picture. BE OPTIMISTIC. If you are giving up, think the reason why you started. It will remind you.
+	</p>
+  
+  </div>
+</div>
+
+
+<div class="bgimg-2 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-light-grey w3-wide">MOMENTS</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64">
+  
+  
+
+
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="pic4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pic5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pic9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+	<div class="w3-col m3">
+      <img src="pic10.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+	 </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="pic8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pic6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pic7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+	<div class="w3-col m3">
+      <img src="pic11.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+	 </div>
+  </div>
+</div>
+
+
+
+<div class="bgimg-3 w3-display-container">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-light-grey w3-wide">ABOUT THE AUTHOR</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64">
+  
+  <p class="w3-center"><em>I am Micah Joshua Agutaya Canaleja, a fifth year Bachelor of Science in Electronics Engineering student of the University of San Carlos-Technological Center. Twenty years of age and presently residing at Block 5, Lot 4, Deca Homes 4, Bangkal, Lapu Lpau City, Philippines. I use my time mostly using social medias such as Facebook, Twitter and Instagram.</em></p>
+ <p class="w3-center">13 Oct 2016</p>
+ 
+</script>
+
+</body>
+</html>
+
